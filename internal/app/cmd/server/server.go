@@ -31,13 +31,13 @@ func allowHostsChecking() error {
 
 func Run(addr ...string) error {
 	// security checking
-	err := allowHostsChecking()
+// 	err := allowHostsChecking()
 
-	if err != nil {
-		return err
-	}
+// 	if err != nil {
+// 		return err
+// 	}
 
-	err = setupDB()
+	err := setupDB()
 
 	if err != nil {
 		return err
